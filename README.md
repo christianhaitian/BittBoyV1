@@ -19,14 +19,14 @@ The image(s) available here are just updates/tweaks to the original SD card imag
 
 #  Instructions
 -  Windows users:
-   -  Download the 7zip file from https://github.com/christianhaitian/BittBoyV1/releases
+   -  Download the 7zip file from https://mega.nz/#!HQognSoI!vt8esvyrioDXMf9BTYe5IMe6lWGVZrkuluZp37nX0cE
    -  Unzip the image (I suggest using the free 7zip tool from https://www.7-zip.org/download.html)
    -  Use a program such as Win32DiskImager (https://sourceforge.net/projects/win32diskimager/) or Etcher (https://www.balena.io/etcher/) to flash to a 8GB micro SD card or larger.
    -  Load some roms into the roms folder (I suggest them putting them in seperate folders based on platform for organization)
    -  Insert into V1 New BittBoy and enjoy!   
 
 -  Linux users (Instructions are based on Ubuntu 16.04 as this is the Linux OS I use):
-   -  Download the 7zip file from https://github.com/christianhaitian/BittBoyV1/releases
+   -  Download the 7zip file from https://mega.nz/#!HQognSoI!vt8esvyrioDXMf9BTYe5IMe6lWGVZrkuluZp37nX0cE
    -  Unzip the image (I suggest using the free 7zip tool.  From terminal, you can install this by doing sudo apt-get install p7zip-full p7zip-rar)   
    -  For those with Ubuntu based systems, you can use the Disks app to image to a 8GB micro SD card or larger.
    -  Load some roms into the roms folder (I suggest them putting them in seperate folders based on platform for organization)
