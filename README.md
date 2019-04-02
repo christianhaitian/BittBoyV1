@@ -1,5 +1,5 @@
 # BittBoyV1
-Various fixes and tinkering for CFW for the New Bittboy version 1.
+Various fixes and tinkering for CFW for the New BittBoy version 1.
 
 The image(s) available here are just updates/tweaks to the original SD card image provided by steward via his GitHub.  You can visit his GitHub at https://github.com/steward-fu/miyoo_rel.  
 
