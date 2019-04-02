@@ -6,8 +6,8 @@ The image(s) available here are just updates/tweaks to the original SD card imag
 # This image requires a minimum of a 8GB micro SD card.  If using a larger micro SD card, you can expand the main Fat32 partition using a Windows based Partition tool like MiniTool Partition Wizard - Free Edition (https://www.partitionwizard.com/download.html).  I do not suggest using a linux based tool such as GParted as it seems to cause issues with Fat32 partitions being readable on Windows machines.
 
   ## The tweaks in my image(s) are as follows:
--  Default kernel is the one that supports the hardware mod ghost key fixed.  
-   -  For BittBoy V1 without this mod, you can download the default kernel from Steward's Github via https://github.com/steward-fu/miyoo_rel/blob/master/kernel/kernel_20190218.zip, unzip and place the kernel file (r61520fb.ko) in main/kernel folder replacing the existing kernel there.
+-  Default kernel is the one that supports the hardware mod based ghost key fix.  
+   -  For New BittBoy V1 without this mod, you can download the default kernel from Steward's Github via https://github.com/steward-fu/miyoo_rel/blob/master/kernel/kernel_20190218.zip, unzip and place the kernel file (r61520fb.ko) in main/kernel folder replacing the existing kernel there.
 -  Added gmenu2x with update to R button to allow quick press to suspend, long press to bring up power menu. (Not my fix, just implemented in image.)
 -  TA and TB button scroll through gmenu2x sections (Not my fix, just implemented in image.)
 -  Added gpsp emulator update with button remapping (Thanks Sauce!)
@@ -17,7 +17,7 @@ The image(s) available here are just updates/tweaks to the original SD card imag
 -  Check and fix Main fat32 partition corruption on boot to improve stability.
 -  Might be some other things added that I can't recall but will update this readme as I remember or am made aware.
 
-#  Instructions:
+#  Instructions
 -  Windows users:
    -  Download the 7zip file from https://github.com/christianhaitian/BittBoyV1/releases
    -  Unzip the image (I suggest using the free 7zip tool from https://www.7-zip.org/download.html)
