@@ -15,7 +15,7 @@ The image(s) available here are just updates/tweaks to the original SD card imag
 -  Added Wolfenstein 3D as another available game (Thanks Steward!)
 -  Added Batman TC mod for Doom2 as an additional game.  Using Chocolate Doom executable.
 -  Check and fix Main fat32 partition corruption on boot to improve stability.
--  Might be some other things added that I can't recall but will update this readme as I remember or am made aware.
+-  Additional changes will be noted on new image notices in the releases section
 
 #  Instructions
 -  Windows users:
