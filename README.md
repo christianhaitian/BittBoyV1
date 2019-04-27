@@ -14,7 +14,7 @@ The image(s) available here are just updates/tweaks to the original SD card imag
 -  Added gambatte as an alternative GB/GBC emulator (Thanks Hi-Ban!)
 -  Added Wolfenstein 3D as another available game (Thanks Steward!)
 -  Added Batman TC mod for Doom2 as an additional game.  Using Chocolate Doom executable.
--  Check and fix Main fat32 partition corruption on boot to improve stability.
+-  Check and fix Main fat32 partition corruption on boot to improve stability.  (Thanks scooterpsu for the speed fix!)
 -  Additional changes will be noted on new image notices in the releases section
 
 #  Instructions
