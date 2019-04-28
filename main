@@ -1,0 +1,30 @@
+#!/bin/sh
+RUN="/mnt/upgrade"
+SWAP="/kernel/swap.img"
+
+export HOME=/mnt
+export SDL_NOMOUSE=1
+
+if [ -e $SWAP ]
+then
+  swapon $SWAP
+else
+  swapon /dev/mmcblk0p2
+fi
+
+modprobe r61520fb.ko
+
+/kernel/daemon
+
+#Check if fat32 is flagged as "dirty", and if so unmount, repair, remount
+if dmesg | grep "mmcblk0p3"; then
+echo -e "\e[31mFAT32 partition dirty, fixing...\e[0m"
+umount /dev/mmcblk0p3
+fsck.vfat -a /dev/mmcblk0p3
+mount /dev/mmcblk0p3 /mnt -t vfat -o rw,utf8
+fi
+
+while [ 1 ]
+do
+  cd /mnt/gmenu2x; ./gmenu2x
+done
